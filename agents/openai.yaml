@@ -1,0 +1,6 @@
+interface:
+  display_name: "视频导演逆向工程"
+  short_description: "拆解、复刻或迁移参考视频并生成提示词"
+  default_prompt: "使用 $video-director-reverse-engineering 分析这段参考视频并生成可执行的镜头与 Seedance 提示词。"
+policy:
+  allow_implicit_invocation: true
